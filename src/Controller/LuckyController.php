@@ -1,8 +1,11 @@
+<?php
+
 // src/Controller/LuckyController.php
 namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\Request;
 
 class LuckyController
 {
@@ -17,3 +20,4 @@ class LuckyController
             '<html><body>Lucky number: '.$number.'</body></html>'
         );
     }
+}
